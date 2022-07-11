@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(100, 99, 99);
+    overflow-x: hidden;
+    width: 100%;
+}
+.top{
+    margin-left: 50px;
+    margin-top: -10px;
+}
+#hover:hover{
+    color: rgb(3, 3, 3);
+}
+
+
+a:nth-child(1) i{
+    margin-top: 20px
+}
+
+li{
+    list-style-type: none;
+    background-color: rgb(216, 213, 213);
+    width: 200px;
+    transform: skewY(-15deg);
+    height: 70px;
+    padding-left: 20px;
+}
+
+.sombra{
+    width: 200px;
+    height: 65px;
+    background-color: rgba(58, 57, 57, 0.952);
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 30px;
+    transform: skewX(34deg) rotate(10deg);
+}
+
+a::before{
+    content: "";
+    width: 50px;
+    height:70px;
+    background-color: rgb(80, 77, 77);
+    position: absolute;
+    margin-left: -70px;
+    margin-top: -29px;
+    transform: skewY(50deg);
+    border-right: 1px solid rgb(99, 99, 99);
+}
+
+li:hover{
+    background-color: lightgreen;
+}
+li:hover a{
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+li:hover ::before{
+    background-color: lightgreen;
+    border-right: 1px solid rgb(109, 165, 109);
+}
+a{
+    color: rgb(53, 54, 54);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+
+.bar-box{
+    background-color: rgb(141, 138, 138);
+    width: 800px;
+    height: 40px;
+    transform: rotate(-15deg) skewX(-15deg);
+    margin-top: 200px;
+    margin-left: -20px;
+    position: absolute;
+}
+.bar-box::before{
+    content: "";
+    width: 800px;
+    height: 550px;
+    background-color: rgb(204, 204, 204);
+    position: absolute;
+    margin-top: -550px;
+    transform: skewX(50deg);
+    margin-left: -327px;
+}
+
+.bars-box{
+    position: absolute;
+    margin-left: -150px;
+    margin-top: -300px;
+    display: flex;
+    transform: rotate(-20deg);
+
+}
+.bars{
+    background-color: yellow;
+    width: 200px;
+    height: 35px;
+    margin-right: 90px;
+    transform: skewX(25deg);
+}
+
+/* my descriptions */
+.my-descripition{
+    color: rgb(156, 156, 156);
+    font-size: 40px;
+    font-family: 'Roboto Mono', monospace;
+    left: 2px;
+    word-spacing: 10px;
+}
+
+.my-descripition-box{
+    transform: skewY(-20deg);
+    margin-left: 50px;
+    margin-top: -150px;
+    width: 1200px;
+}
+.strongs{
+    color: rgb(65, 65, 65);
+}

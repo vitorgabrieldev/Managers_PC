@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-left: 50%;
+    margin-top: 20px;
+    transform: translate(-50%);
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+header{
+    background-color: rgb(25, 102, 102);
+    color: aliceblue;
+    width: 30%;
+    position: fixed;
+    height: 100%;
+}
+h1{
+    color: rgb(206, 176, 7);
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2rem;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+h2{
+    font-size: 20px;
+    margin-left: 3%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+a:hover{
+    color: rgb(197, 197, 197);
+    transition: 0.1s;
+}
+h2:hover{
+    color:  rgb(201, 201, 201) ;
+    transition: 0.1s;
+}
+
+/* main / texto */
+.txt{
+    position: relative;
+    font-size: 18px;
+    margin-left: 35%;
+    margin-right: 5%;
+    margin-top: 30px;
+}

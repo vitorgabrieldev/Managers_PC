@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+img{
+    width: 250px;
+    height: 150px;
+}
+
+.cards{
+    background-color: rgb(255, 244, 244);
+    position: relative;
+    width: 250px;
+    height: 300px;
+    left: 10%;
+    top: 10%;
+    margin-left: 10px;
+    box-shadow: 1px 1px 10px #000;
+    transform: skewY(-15deg);
+    transition: 0.3s;
+}
+.container-cards{
+    display: flex;
+    margin-top: 100px;
+}
+section section div::before{
+    content: "";
+    width: 50px;
+    height: 150px;
+    position: absolute;
+    background-color: rgb(87, 86, 86);
+    transform: skewY(40deg);
+    margin-left: -50px;
+    margin-top: -21px;
+    border-bottom: 2px solid #000;
+}
+.cards::after{
+    content: "";
+    width: 248px;
+    height: 45px;
+    background-color: rgb(207, 207, 207);
+    position: absolute;
+    margin-top: -314px;
+    transform: skewX(50deg);
+    margin-left: -25px;
+}
+.name-card{
+    color: rgb(103, 104, 104);
+    font-size: 2em;
+    text-align: center;
+    margin-top: -7px;
+    padding-top: 40px;
+}
+
+.cards:hover{
+    transform: 1s;
+    transform: skewY(-15deg) scale(1.2);
+    background-color: rgb(211, 211, 211);
+}
+.cards:hover::after{
+    background-color: rgb(182, 181, 181);
+}
+
+a{
+    color: rgb(70, 69, 69);
+    text-decoration: none;
+    transition: 1s;
+    padding-bottom: 5px;
+}
+a:hover{
+    color: rgb(34, 34, 34);
+    border-bottom: 2px solid #000;
+}

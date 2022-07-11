@@ -1,0 +1,24 @@
+@media (max-width: 800px) {
+    .my-descripition{
+        width: 700px;
+    }
+    .my-descripition-box{
+        margin-left: 10px;
+    }
+}
+@media (max-width:400px) {
+    .my-descripition{
+        width: 150px;
+    }
+    .my-descripition-box{
+        margin-left: 10px;
+    }
+}
+@media (max-width:600px) {
+    .my-descripition{
+        width: 400px;
+    }
+    .my-descripition-box{
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,46 @@
+body
+{
+    background: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+ul li a
+{
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    font-family: monospace;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+ul li
+{
+    list-style-type: none;
+    background: #fff;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #888;
+}
+ul
+{
+    position: absolute;
+    margin-left: -40px;
+    transition: 1s;
+    margin-top: 0px;
+    display: none;
+}
+.container-menu i
+{
+    color: rgb(59, 59, 59);
+    font-size: 50px;
+    background: #fff;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #888;
+}
+ul li:hover
+{
+    background: rgba(167, 167, 167, 0.575);
+}

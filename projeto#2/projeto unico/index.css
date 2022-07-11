@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(6, 43, 68);
+}
+
+.menu-box{
+    position: absolute;
+    top: 100%;
+    width: 250px;
+    height: 850px;
+    background-color: #647d9449 ;
+    position: absolute;
+    left: calc(100% - 300px);
+}
+
+.name-log{
+    color: rgb(4, 26, 46);
+    margin-left: 40%;
+    transform: translate(-40%);
+    text-align: center;
+}
+
+.edit-name{
+    border: none;
+    background-color: rgba(196, 193, 193, 0.336);
+    width: 245px;
+    padding-top: 5px;
+    text-align: center;
+    padding-bottom: 5px;
+    outline: none;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.save:hover{
+    background-color: rgba(88, 88, 88, 0.192);
+    color: aliceblue;
+}
+
+.save{
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.541);
+    color: #000;
+    width: 190px;
+    border-radius: 2px;
+    margin-top: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+input::placeholder{
+    color: rgb(4, 20, 34);
+    font-size: 15px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.options{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: block;
+    text-decoration: none;
+    margin-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.options:hover{
+    transition: 0.1s;
+    transform: ;
+    color: rgb(0, 0, 0);
+    background-color: rgba(187, 187, 187, 0.432);
+}
+
+.options:active{
+    transform: scale(1.1);
+    background-color: lightgreen;
+    color: rgb(73, 73, 73);
+    transition: 10ms;
+}
+
+.bar{
+    width: 240px;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 5px;
+}
+
+#log{
+    margin-top: 60px;
+    position: absolute;
+}

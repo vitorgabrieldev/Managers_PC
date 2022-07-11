@@ -1,0 +1,145 @@
+@media (max-width:1160px){
+    .left{
+        display: none;
+    }
+    .rigth{
+        display: none;
+    }
+    .card{
+        margin-left: 20px;
+    }
+    
+}
+@media (max-width:500px) {
+    #card2{
+        margin-left: 30px;
+        margin-top: 50px;
+        position: relative;
+    }
+    .card{
+        margin-left: 30px;
+    }
+    #card3{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    #card4{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    #card5{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    #card6{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    #card7{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    #card8{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    #card9{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .options{
+        display: none;
+    }
+}
+
+@media (max-width:400px){
+    .logo-name i{
+        display: none;
+    }
+    .logo-name{
+        font-size: 40px;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+    .options{
+        display: none;
+    } 
+
+    #card4{
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    #card5{
+        margin-left: 30px;
+    }
+    #card6{
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    #card7{
+        margin-left: 30px;
+    }
+    #card8{
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    .error-search{
+        visibility: hidden;
+    }
+    .send{
+        display: none;
+    }
+}
+
+@media (max-width:800px){
+    .search{
+        display: none;
+    }
+    #search{
+        display: none;
+    }
+    .send{
+        display: none;
+    }
+    .error-search{
+        visibility: hidden;
+    }
+}
+
+@media(max-width:350px){
+    .card{
+        transform: scale(0.8);
+    }
+    .card:hover{
+        left: -20px;
+    }
+}
+
+                            /* footer / sugestões */
+
+footer{
+    background-color: rgba(212, 212, 212, 0.671);
+    height: 400px;
+    box-shadow: inset 2px 2px 10px rgb(107, 107, 107);
+}
+ul{
+    display: inline-block;
+    margin-left: 22%;
+    list-style-type: none;
+    margin-top: 30px;
+}
+li{
+    padding-bottom: 10px;
+}
+a{
+    color: rgb(117, 117, 117);
+    font-size: 25px;
+}
+a:hover{
+    color: rgb(73, 73, 73);
+    transition: 0.3s;
+}
+.referencia{
+    color: rgb(71, 71, 71);
+    text-align: center;
+}

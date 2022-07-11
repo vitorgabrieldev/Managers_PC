@@ -1,0 +1,30 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #2f363e;
+    overflow: hidden;
+}
+p
+{
+    color: aliceblue;
+}
+#position
+{
+    position: absolute;
+}
+.litx
+{
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 5px;
+    position: absolute;
+}
+.lity
+{
+    background: rgb(255, 255, 255);
+    width: 5px;
+    height: 120%;
+    margin-top: -10%;
+    position: absolute;
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+body{
+    background: #fff;
+    margin: 0%;
+    padding: 0%;
+}
+
+.content-box{
+    border-bottom: 1px solid rgba(165, 164, 164, 0.445);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+}
+
+.logo{
+    font-family: 'Courgette', cursive;
+    font-size: 27px;
+}
+
+header div h1{
+    position: absolute;
+    top: -10px;
+    left: 13.5%;
+}
+
+.icons{
+    position: absolute;
+    top: 20px;
+    left: 64.5%;
+    cursor: pointer;
+}
+
+svg{
+    margin-left: 20px;
+}
+
+.search-box{
+    background: #efefef;
+    border: none;
+    border-radius: 7px;
+    position: absolute;
+    top: 2.9%;
+    width: 235px;
+    left: 50%;
+    height: 33wpx;
+    transform: translate(-50%,-50%);
+}
+
+header div input{
+    color: rgba(194, 189, 189, 0.589);
+    padding-left: 40px;
+    outline: none;
+}
+
+.profile-circle{
+    width: 50px;
+    height: 50px;
+}
+
+img{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: -10px;
+    left: 110%;
+
+}
+
+.up-circle{
+    border: 2px solid rgb(14, 14, 14);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    top: -13.7px;
+    left: 108.3%;
+}

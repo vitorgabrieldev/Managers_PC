@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link folhas de estilos -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="media.css">
+
+    <!-- link pagina de icons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <script src="main.js"></script>
+
+
+    <title> devs </title>
+</head>
+<body>
+    <header>
+        <div id="profile" class="menu-box">
+            <div class="content-top">
+                <h1 class="img-profile-log"> <img src="profile.jpg"> </h1>
+                <h1 id="name" class="name-log"> Username </h1>
+                <input class="edit-name" type="text" name="edit-name" id="edit" placeholder="digite seu nome" maxlength="8">
+                <input type="submit" id="btn" onclick="save()" class="save" value="Save">
+                <div class="bar"></div>
+            </div>
+
+            <div class="content-main">
+                <a class="options" href="#"> <i class='bx bx-home-alt'></i> home </a>
+                <a class="options" href="#"> <i class='bx bx-group'></i> Friends</a>
+                <a class="options" href="#"> <i class='bx bxs-book' ></i> Hitória</a>
+                <a class="options" href="#"> <i class='bx bx-slider-alt'></i> Settings </a>
+                <div class="bar"></div>
+                <a id="log" class="options" href="#"> <i class='bx bx-log-out-circle'></i> Log out </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-box">
+            <h1 class="name"> Vitor Devs </h1>
+            <a class="options" href="#"> Home </a>
+        </div>
+        <div class="sobre-box"></div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,157 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Login */
+.content-main1{
+    background: linear-gradient(90deg, rgb(5, 83, 119),
+     rgba(145, 192, 207, 0.753));
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+
+/* Sign up */
+.content-main2{
+    background: linear-gradient(90deg, rgb(6, 56, 104), rgba(10, 111, 145, 0.601));
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    margin-left: 50%;
+    box-shadow: -5px 0px 70px rgb(1, 27, 36);
+}
+
+/* container menu login */
+.content-login{
+    background-color: rgba(243, 243, 243, 0.102);
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    padding: 70px;
+    width: 270px;
+    height: 450px;
+}
+
+.content-name{
+    font-size: 30px;
+    font-family: monospace;
+    color: whitesmoke;
+}
+
+input{
+    background: transparent;
+    border: none;
+    padding: 10px;
+    border-bottom: 2px solid rgba(243, 243, 243, 0.39);
+    padding-right: 60px;
+    outline: none;
+    color: aliceblue;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+input::placeholder{
+    color: rgba(243, 243, 243, 0.76);
+}
+
+.btn-login{
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    font-size: 25px;
+    color: aliceblue;
+    border: 2px solid rgba(243, 243, 243, 0.76);
+    width: 150px;
+    position: absolute;
+    top: 60%;
+}
+
+.btn-login:hover{
+    border: 2px solid rgba(230, 227, 227, 0.589);
+    background-color: rgba(187, 187, 187, 0.466);
+    color: rgba(230, 227, 227, 0.856);
+}
+.btn-login:active{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    border: border: 2px solid rgba(243, 243, 243, 0.76); ;
+}
+
+input:hover{
+    border-bottom: 2px solid rgba(118, 243, 96, 0.452);
+    padding: 15px;
+    padding-right: 110px;
+}
+
+
+input:focus{
+    padding-right: 110px;
+    border-bottom: 2px solid rgba(118, 243, 96, 0.452);
+}
+
+/* ENTRAR */
+.content-entrar{
+    background-color: rgba(243, 243, 243, 0.102);
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    padding: 70px;
+    width: 270px;
+    height: 450px;
+}
+
+.btn-login2{
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    font-size: 25px;
+    color: aliceblue;
+    border: 2px solid rgba(243, 243, 243, 0.76);
+    width: 150px;
+    position: absolute;
+    top: 60%;
+}
+
+@media (max-width:768px){
+    .content-login{
+        left: 0%;
+        overflow-x: hidden;
+    }
+    .content-entrar{
+        left: 0%;
+    }
+}
+
+@media (max-width:375px){
+
+    .content-login{
+        padding-left: 0%;
+        padding-top: 5%;
+    }
+
+    .content-entrar{
+        padding-left: 0%;
+        padding-top: 5%;
+    }
+
+    button{
+        transform: scale(0.5);
+    }
+    h1{
+        font-size: 20px;
+        position: relative;
+        left: 10%;
+    }
+
+    input:hover{
+    border-bottom: 2px solid rgba(118, 243, 96, 0.452);
+    padding: 8px;
+    }
+
+    input{
+        padding-left: 2px;
+        margin-left:8px
+    }
+}

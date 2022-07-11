@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+    background: rgb(82, 82, 82);
+    margin: 0%;
+    padding: 0%;
+}
+
+.content-box{
+    border-bottom: 1px solid rgba(165, 164, 164, 0.445);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+}
+
+.logo{
+    font-family: 'Courgette', cursive;
+    font-size: 27px;
+}
+
+header div h1{
+    position: absolute;
+    top: -10px;
+    left: 13.5%;
+}
+
+.icons{
+    position: absolute;
+    top: 20px;
+    left: 64.5%;
+    cursor: pointer;
+}
+
+svg{
+    margin-left: 20px;
+}
+
+.search-box{
+    background: #dfdfdf;
+    border: none;
+    border-radius: 7px;
+    position: absolute;
+    top: 4%;
+    width: 235px;
+    left: 50%;
+    height: 33px;
+    transform: translate(-50%,-50%);
+    color: rgb(114, 114, 114);
+}
+
+.search-box:hover{
+    position: absolute;
+    width: 300px;
+    transition: 0.1s;
+}
+
+header div input{
+    color: rgba(194, 189, 189, 0.589);
+    padding-left: 40px;
+    outline: none;
+}
+
+.profile-circle{
+    width: 50px;
+    height: 50px;
+}
+
+img{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: -10px;
+    left: 110%;
+
+}
+
+.up-circle{
+    border: 2px solid rgb(14, 14, 14);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    top: -13.7px;
+    left: 108.3%;
+}
+
+/* container profile */
+
+
+.content-profile{
+    background-color: rgb(189, 189, 189);
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+    left: 14%;
+}
+
+.name{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 30%;
+    top: 13%;
+}
+
+.options{
+    position: absolute;
+    margin-left: 45%;
+    top: 17%;
+}
+
+#dd{
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(59, 59, 59);
+    font-size: 20px;
+    margin-left: 40px;
+    border-radius: 3px;
+}
+
+.add-friends i{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 2px solid rgba(194, 189, 189, 0.589);
+}
+
+.enviar-msg{
+    padding: 5px;
+    border: 2px solid rgba(194, 189, 189, 0.589);
+}
+
+.more{
+    border: 2px solid rgba(194, 189, 189, 0.589);
+    padding: 5px;
+}
+
+.inf{
+    font-size: 8px;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pub{
+    position: absolute;
+    top: 18%;
+    left: 30%;
+}
+
+.seg{
+    position: absolute;
+    top: 18%;
+    left: 50%;
+}
+
+.seguindo{
+    position: absolute;
+    top: 18%;
+    left: 65%;
+}

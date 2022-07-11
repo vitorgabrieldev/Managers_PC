@@ -1,0 +1,8 @@
+/* Responsive */
+
+@media (max-width: 501px){
+    .menu-box{
+        left: 50%;
+        transform: translate(-50%);
+    }
+}

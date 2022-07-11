@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', monospace;
+}
+.container-menu
+{
+    background: #273c50;
+    position: fixed;
+    width: 70px;
+    height: 100%;
+    transition: 0.3s;
+}
+.container-menu ul
+{
+    margin-top: 0px;
+}
+.container-menu ul li a
+{
+    color: aliceblue;
+    font-size: 35px;
+}
+.container-menu ul li
+{
+    list-style-type: none;
+    width: 70px;
+    margin-left: -40px;
+    text-align: center;
+    padding: 15px 0px 15px 0px ;
+}
+.container-menu ul li:hover
+{
+    background: #1e2d3b;
+}
+
+                /* drop-dow */
+
+.container-menu .ul-dd li a
+{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-decoration: none;
+    margin-top: -295%;
+}
+.container-menu .ul-dd li
+{
+    margin-top: 52.5px;
+}
+.container-menu .ul-dd li a:hover
+{
+    color: rgb(148, 148, 148);
+}
+
+                /*dubd-drops*/
+.container-menu ul li ul
+{
+    position: absolute;
+    margin-left: 100px;
+}
+.container-menu ul li ul li a
+{
+    color: #1e2029;
+}
+.home-dp:hover .dd-home
+{
+    display: block;
+}

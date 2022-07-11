@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+
+.main-box{
+    background-color: rgb(3, 30, 54);
+    height: 250px;
+    width: 100%;
+    position: absolute;
+}
+.sobre-box{
+    position: absolute;
+    left: 65%;
+    width: 500px;
+    height: 250px;
+    background-color: rgb(8, 54, 92);
+    transform:skewX(200deg);
+}
+
+.name{
+    color: aliceblue;
+}
